@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6f2a1803dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game-text">
+            <span>게임종료</span>
+            <button>다시시작</button>
+        </div>
+        <h1>SCORE</h1>
+        <div class="score">0</div>
+        <div class="control">
+            <button class="play"><i class="fa-solid fa-play"></i></button>
+            <button class="pause"><i class="fa-solid fa-pause"></i></button>
+        </div>
+        <div class="playground"><!--테트리스가 들어갈 부분-->
+            <ul></ul>
+        </div>
+    </div>
+    <script src="js/tetris.js" type="module"></script>
+</body>
+</html>
